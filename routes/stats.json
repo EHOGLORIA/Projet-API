@@ -1,33 +1,45 @@
 [
     {
-      "id": 101,
-      "wins": 10,
-      "losses": 3,
-      "points_scored": 7
+      "id": 1,
+      "Nom_du_joueur": "Neymar",
+      "Annees_d'expériences": 10,
+      "Buts_marqués": 5,
+      "Buts_ratés": 7
     },
     {
-      "id": 231,
-      "wins": 1,
-      "losses": 10,
-      "points_scored": 2
+      "id": 2,
+      "Nom_du_joueur": "Zinedine Zidane",
+      "Annees_d'expériences": 20,
+      "Buts_marqués": 15,
+      "Buts_ratés": 6
     },
     {
-      "id": 145,
-      "wins": 5,
-      "losses": 1,
-      "points_scored": 14
+      "id": 3,
+      "Nom_du_joueur": "Alexis Romao",
+      "Annees_d'expériences": 15,
+      "Buts_marqués": 15,
+      "Buts_ratés": 7
     },
     {
-      "id": 45,
-      "wins": 6,
-      "losses": 2,
-      "points_scored": 2
+      "id": 4,
+      "Nom_du_joueur": "Serge Gakpe",
+      "Annees_dexpériences": 17,
+      "Buts_marqués": 10,
+      "Buts_ratés": 7
     },
     {
-      "id": 27,
-      "wins": 14,
-      "losses": 26,
-      "points_scored": 28
+      "id": 5,
+      "Nom_du_joueur": "Fo Doh Laba",
+      "Annees_d'expériences": 17,
+      "Buts_marqués": 10,
+      "Buts_ratés": 7
+    },
+    {
+      "id": 6,
+      "Nom_du_joueur": "Kossi Koudagba",
+      "Annees_d'expériences": 18,
+      "Buts_marqués": 3,
+      "Buts_ratés": 7
     }
     
   ]

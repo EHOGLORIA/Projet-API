@@ -64,9 +64,10 @@ const updateStats = async (req, res, next) => {
         }
         const newStatsData = {
             id: req.body.id,
-            wins: req.body.wins,
-            losses: req.body.losses,
-            points_scored: req.body.points_scored,
+            Nom_du_joueur: req.body.wins,
+            Annees_dexpériences: req.body.wins,
+            Buts_marqués: req.body.losses,
+            Buts_ratés: req.body.points_scored,
         };
         const newStats = stats.map((player) => {
             if (player.id === Number(req.params.id)) {
