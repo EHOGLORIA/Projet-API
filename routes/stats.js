@@ -35,9 +35,10 @@ const createStats = async (req, res, next) => {
         const stats = JSON.parse(data);
         const newStats = {
             id: req.body.id,
-            wins: req.body.wins,
-            losses: req.body.losses,
-            points_scored: req.body.points_scored,
+            Nom_du_joueur: req.body.Nom_du_joueur,
+            Annees_dexpériences: req.body.Annees_dexpériences,
+            Buts_marqués: req.body.Buts_marqués,
+            Buts_ratés: req.body.Buts_ratés,
         };
         stats.push(newStats);
         fs.writeFileSync(statsFilePath, JSON.stringify(stats));
@@ -64,10 +65,10 @@ const updateStats = async (req, res, next) => {
         }
         const newStatsData = {
             id: req.body.id,
-            Nom_du_joueur: req.body.wins,
-            Annees_dexpériences: req.body.wins,
-            Buts_marqués: req.body.losses,
-            Buts_ratés: req.body.points_scored,
+            Nom_du_joueur: req.body.Nom_du_joueur,
+            Annees_dexpériences: req.body.Annees_dexpériences,
+            Buts_marqués: req.body.Buts_marqués,
+            Buts_ratés: req.body.Buts_ratés,
         };
         const newStats = stats.map((player) => {
             if (player.id === Number(req.params.id)) {
